@@ -1,7 +1,7 @@
 
 import Title from "../components/Title";
 import Text from "../components/Text";
-import Item from "../components/Item";
+import Item from "./components/Item";
 
 
 function Service1() {
