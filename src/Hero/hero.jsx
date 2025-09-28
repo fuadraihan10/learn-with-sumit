@@ -10,7 +10,7 @@ function Hero() {
                 {/* Left contents */}
                 <div className="mr-auto place-self-center lg:col-span-7">
 
-                    <Title text="Building digital products & brands." big={true} />
+                    <Title text={<> Building digital <br />products & brands. </>} big={true} />
                     <Text>
                         This free and open-source landing page template was built using the utility classes from{" "}
                         <a href="#" className="hover:underline">
