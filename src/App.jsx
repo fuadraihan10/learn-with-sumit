@@ -1,6 +1,7 @@
 import CompaniesLogos from "./Companies_logos/Companies_logos";
 import Header from "./Header/Header";
 import Hero from "./Hero/hero";
+import Pricing from "./Pricing/Pricing";
 import Service1 from "./Service1/Service1";
 import Service2 from "./Service2/service2";
 import Testimonial from "./Testimonial/Testimonial";
@@ -14,6 +15,7 @@ function App() {
     <Service1 />
     <Service2 />
     <Testimonial />
+    <Pricing />
   </div> );
 }
 
