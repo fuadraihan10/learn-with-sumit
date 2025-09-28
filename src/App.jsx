@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import Hero from "./Hero/hero";
 import Service1 from "./Service1/Service1";
 import Service2 from "./Service2/service2";
+import Testimonial from "./Testimonial/Testimonial";
 
 function App() {
   return ( 
@@ -12,6 +13,7 @@ function App() {
     <CompaniesLogos />
     <Service1 />
     <Service2 />
+    <Testimonial />
   </div> );
 }
 
