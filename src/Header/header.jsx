@@ -3,7 +3,7 @@ import Btn from "../components/Btn";
 function Header() {
     return ( 
         // nav-bar 
-    <div>
+    <header className="fixed w-full" >
         <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
 
             <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
@@ -39,7 +39,7 @@ function Header() {
 
 
         </nav>
-    </div>
+    </header>
     );
 }
 
